@@ -90,16 +90,8 @@ npm run dev
 # Generate images
 npm run generate
 
-# Multi-style generation
-npm run dev:multi-style
-```
 
 ## Configuration
-
-### Environment Variables
-Create a `.env` file in the root directory with:
-```
-CHROME_USER_DATA_DIR=[path-to-chrome-data]
 ```
 
 ### Prompt Templates
@@ -112,10 +104,6 @@ Edit `data/items.js` to customize:
 
 - `npm run dev`: Run in development mode
 - `npm run generate`: Generate images
-- `npm run build`: Build TypeScript files
-- `npm run start`: Run compiled JavaScript
-- `npm run dev:multi-style`: Run multi-style generator
-- `npm test`: Run tests
 
 ## Error Handling
 
